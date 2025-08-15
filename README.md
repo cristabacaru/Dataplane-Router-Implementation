@@ -2,7 +2,6 @@
 
 ## 📌 Overview
 This project implements the **dataplane** component of an IPv4 router in **C**, handling Ethernet frame parsing, IP packet forwarding, ARP resolution, and ICMP responses.  
-It was developed as part of the **Communication Protocols** course at POLITEHNICA University of Bucharest.
 
 The focus is on **low-level packet processing** and efficient routing decisions, simulating the behavior of a real router using a static routing table.
 

@@ -33,11 +33,11 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 ---
 
 ## 📂 Project Structure
-common.c / common.h # Shared functions and definitions
-map.c / map.h # Data structure for ARP and routing table management
-server.c # Main router dataplane logic
-subscriber.c # Auxiliary subscriber logic
-Makefile # Build instructions
+- common.c / common.h # Shared functions and definitions
+- map.c / map.h # Data structure for ARP and routing table management
+- server.c # Main router dataplane logic
+- subscriber.c # Auxiliary subscriber logic
+- Makefile # Build instructions
 
 
 ---

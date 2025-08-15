@@ -1,13 +1,13 @@
 # IPv4 Dataplane Router – Packet Forwarding in C
 
-## 📌 Overview
+## Overview
 This project implements the **dataplane** component of an IPv4 router in **C**, handling Ethernet frame parsing, IP packet forwarding, ARP resolution, and ICMP responses.  
 
 The focus is on **low-level packet processing** and efficient routing decisions, simulating the behavior of a real router using a static routing table.
 
 ---
 
-## 🚀 Features
+## Features
 - **Ethernet frame parsing**: Identify and handle IPv4, ARP, and broadcast frames.
 - **Static routing table**: Forward packets using **Longest Prefix Match (LPM)** with support for large tables (~100k entries).
 - **ARP protocol**:
@@ -24,7 +24,7 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 
 ---
 
-## 🛠️ Technologies & Tools
+## Technologies & Tools
 - **Languages:** C
 - **Networking:** Ethernet, IPv4, ARP, ICMP
 - **Tools:** Mininet, Wireshark, GCC, Make
@@ -32,7 +32,7 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - common.c / common.h # Shared functions and definitions
 - map.c / map.h # Data structure for ARP and routing table management
 - server.c # Main router dataplane logic
@@ -42,7 +42,7 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 1. **Packet Reception** – Reads raw Ethernet frames from the network interface.
 2. **Protocol Identification** – Determines if the payload is IPv4 or ARP.
 3. **Forwarding Decision** – Uses Longest Prefix Match to find the next hop.
@@ -52,7 +52,7 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 
 ---
 
-## ▶️ Build & Run
+## Build & Run
 **Requirements:**
 - GCC
 - Linux environment

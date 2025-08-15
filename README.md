@@ -59,19 +59,17 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 - Mininet (for testing)
 
 **Build:**
-make
+- make
 
 **Run in Mininet:**
-
-./server
-
+- ./server
 
 **Test:**
 
-# Run provided automated test scripts or use ping/arping
+- Run provided automated test scripts or use ping/arping
 
 ## 📊 Example Output
-Received packet on interface eth0
+``Received packet on interface eth0
 Forwarding to eth1 (next hop: 192.168.0.2)
 Sending ARP request for 192.168.0.2
-ICMP Echo Reply sent to 10.0.0.1
+ICMP Echo Reply sent to 10.0.0.1``

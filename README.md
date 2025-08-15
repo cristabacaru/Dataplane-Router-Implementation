@@ -69,7 +69,7 @@ The focus is on **low-level packet processing** and efficient routing decisions,
 - Run provided automated test scripts or use ping/arping
 
 ## 📊 Example Output
-``Received packet on interface eth0\n
-Forwarding to eth1 (next hop: 192.168.0.2)\n
-Sending ARP request for 192.168.0.2\n
-ICMP Echo Reply sent to 10.0.0.1\n``
+  ``Received packet on interface eth0 
+  Forwarding to eth1 (next hop: 192.168.0.2)
+  Sending ARP request for 192.168.0.2
+  ICMP Echo Reply sent to 10.0.0.1``
